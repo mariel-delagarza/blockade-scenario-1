@@ -26,7 +26,7 @@ A Mapbox "interactive storytelling" map, [based on their demo/template](https://
 - Lines 477 - 483 are where we **remove** the markers from the map.
 
 # So how do I add markers (multiples of the same gif, like this map)
-- [This tutorial from Mapbox](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/#add-html-markers) covers add custom markers to maps. It's more info than you really need but it's good background and has some examples.
+- [This tutorial from Mapbox](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/#add-html-markers) covers adding custom markers to maps. It's more info than you really need but it's good background and has some examples.
 - Step 1: you need to add your gif file(s) to your project. Your project should be structured like this one (`config.js`, `index.html`, any gifs you want to use). 
 - Step 2: decide which "chapters" of your map will have them - once you've decided, make sure you note the chapter's `id`.
 - Step 3: decide where on the map your markers will go. [This Mapbox tool](https://labs.mapbox.com/location-helper/#3/40.78/-73.97) can help you determine the exact lat/long to use. Once you have a lat/long pair, copy that somewhere because you'll need it. This value will be the center of your gif.
