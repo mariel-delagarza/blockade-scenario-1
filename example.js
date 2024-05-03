@@ -1,4 +1,8 @@
-let markers = [];
+// let markers = []; -- we aren't using this anymore
+// we need to tell the browser the names of the markers we're making
+let myFirstMarker;
+let mySecondMarker;
+
 if (config.showMarkers) {
   const pointArr = [
     [120.070653107119995, 20.924962032182101],
@@ -22,7 +26,7 @@ if (config.showMarkers) {
   // 2. Tell it which CSS (which gif) to use
   myFirstMarkerElement.className = "my-first-marker";
   // 3. Tell Mapbox take a marker for that element, and which lat/long pair in the `pointArr` to use
-  const myFirstMarker = new mapboxgl.Marker(myFirstMarkerElement).setLngLat([
+  myFirstMarker = new mapboxgl.Marker(myFirstMarkerElement).setLngLat([
     pointArr[0],
   ]);
 
@@ -31,7 +35,7 @@ if (config.showMarkers) {
   // 2. Tell it which CSS (which gif) to use
   mySecondMarkerElement.className = "my-second-marker";
   // 3. Tell Mapbox take a marker for that element, and which lat/long pair in the `pointArr` to use
-  const mySecondMarker = new mapboxgl.Marker(mySecondMarkerElement).setLngLat([
+  mySecondMarker = new mapboxgl.Marker(mySecondMarkerElement).setLngLat([
     pointArr[1],
   ]);
 }
