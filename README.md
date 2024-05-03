@@ -1,6 +1,6 @@
 # What is this
 
-A Mapbox "interactive storytellin" map, [based on their demo/template](https://labs.mapbox.com/education/impact-tools/interactive-storytelling/). 
+A Mapbox "interactive storytelling" map, [based on their demo/template](https://labs.mapbox.com/education/impact-tools/interactive-storytelling/). 
 
 # What are the files
 - `config.js` &rarr; The configuration file for your map. This is where you give Mapbox the style you want to use and create the "chapters" of your scrolly map and give them their settings (e.g. which layers to show and hide). 
