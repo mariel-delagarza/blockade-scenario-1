@@ -37,4 +37,4 @@ A Mapbox "interactive storytelling" map, [based on their demo/template](https://
 - The idea is the same (make the marker, tell it which gif to use and where to go, and tell the map when to add and remove it) but the how is a little different.
 - There are a lot of different ways you can go about coding this, but I've given an example of a straightforward (if kind of clunky) way to do it in `example.js`. 
 - The code in `index.html` is assuming we're using the same gif and the same size for each marker, and later on they all get added to and removed from the map at the same time. 
-- In `example.js` we still make a list of the lat/long pairs for all of our markers, but we make the markers individually an add to and remove them from the map individually. 
+- In `example.js` we still make a list of the lat/long pairs for all of our markers, but we make the markers individually and add/remove them from the map individually. 
