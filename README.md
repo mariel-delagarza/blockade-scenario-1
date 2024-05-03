@@ -8,7 +8,7 @@ A Mapbox "interactive storytelling" map, [based on their demo/template](https://
 
 # What are "chapters"
 - The chapters are discrete chunks of your scrolly map. Think of it was a scrolling PowerPoint.
-- If you have this file open while looking at the [live map](https://feat-taiwan-blockade-map--csis-cpower-viz.netlify.app/taiwan-blockade-map/scenario1/), you can see the text in the boxes will match up with the values of the `description` items. For example, line 33 matches up with the first text you see when you start the map. Each box of text is part of a separate chapter. 
+- If you have the `config.js` file open while looking at the [live map](https://feat-taiwan-blockade-map--csis-cpower-viz.netlify.app/taiwan-blockade-map/scenario1/), you can see the text in the boxes will match up with the values of the `description` items. For example, line 33 matches up with the first text you see when you start the map. Each box of text is part of a separate chapter. 
 - Each chapter has an `onChapterEnter` part and an `onChapterExit` part. This is where you tell Mapbox what layers to make visible (e.g. showing drones) when a user reaches the chapter, and what layers to hide (e.g. removing ships) when a user moves to the next chapter.
 - The layers referenced are created via Mapbox Studio. There we set the opacity to `0`, and here we use opacity as a way to show and hide them. 
 
